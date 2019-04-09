@@ -1,0 +1,328 @@
+/*右侧导航*/
+.onlineService{position: absolute;right: 10px;top:600px;z-index: 499;width: 50px;font-size: 0;line-height: 0;}
+.onlineService li{width: 50px; height: 50px; position: relative; cursor: pointer;margin-bottom: 10px;border-radius: 4px;}
+.onlineService li:nth-child(1){background:url("https://aliyunsso.edspay.com/web/rightTable/bj_service1.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+.onlineService li:nth-child(2){background:url("https://aliyunsso.edspay.com/web/rightTable/bj_service2.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+.onlineService li:nth-child(3){background:url("https://aliyunsso.edspay.com/web/rightTable/bj_service3.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+.onlineService li:nth-child(4){background:url("https://aliyunsso.edspay.com/web/rightTable/bj_service4.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+.onlineService li:nth-child(5){background:url("https://aliyunsso.edspay.com/web/rightTable/bj_service5.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+
+.onlineService li:nth-child(1):hover{background:url("https://aliyunsso.edspay.com/web/rightTable/bj_h_service1.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+.onlineService li:nth-child(2):hover{background:url("https://aliyunsso.edspay.com/web/rightTable/bj_h_service2.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+.onlineService li:nth-child(3):hover{background:url("https://aliyunsso.edspay.com/web/rightTable/bj_h_service3.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+.onlineService li:nth-child(4):hover{background:url("https://aliyunsso.edspay.com/web/rightTable/bj_h_service4.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+.onlineService li:nth-child(5):hover{background:url("https://aliyunsso.edspay.com/web/rightTable/bj_h_service5.png?v=1.0") no-repeat #1E92FF;background-size: 100%;}
+.onlineService li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.onlineService li i{
+	line-height: 50px;
+  text-align: center;
+  width: 50px;
+  font-size: 26px;
+  color: #fff;
+  position: absolute;
+}
+/* .onlineService li:hover {background:#fc4147;}
+.onlineService li:hover i{color:#fff;} */
+.onlineService li .kf_wrap{position: absolute; width: 128px; left: -136px; top: 0px; border: 1px solid #e8e8e8; font-size: 14px; background: #fff; display: none;}
+.onlineService li .kf_wrap:before{content: " "; position: absolute; width: 0px; height: 0px; border-style: solid;border-width: 6px; border-color: transparent transparent transparent #fff; z-index: 3; top: 17px; right: -12px;}
+.onlineService li .kf_wrap a{display: block; height: 43px; border-bottom:1px solid #e8e8e8;  text-align: center; line-height: 43px; color: #999; }
+.onlineService li a.hover_show{border-radius: 4px;position: absolute; width: 100px; height: 100px; border: 1px solid #e8e8e8; background: #fff; left: -115px; top: 0px; text-align: center; line-height: 43px; color: #999; font-size: 14px; display: none;padding:5px;}
+.onlineService li a.hover_show:before{content: " "; position: absolute; width: 5px; height: 5px; background:#fff;transform: rotate(45deg); }
+.onlineService li a.hover_show:before{z-index: 3; top: 17px; right: -4px;}
+.onlineService li:hover a.hover_show,
+.onlineService li:hover .kf_wrap{display: block;}
+/*账户按钮*/
+.red-button{
+  border:1px solid #fc4147;
+  color: white;
+  background-color: #fc4147;
+}
+.white-button{
+  border:1px solid #fc4147;
+  color: #fc4147;
+  background-color: white;
+}
+.home-option{
+  flex:1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-option-button{
+  margin-top: 10px;
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  margin-left: 0px !important;
+}
+.red-button:hover,.red-button:focus{
+  border:1px solid #fc4147;
+  color: white;
+}
+.white-button:hover,.white-button:focus{
+  border:1px solid #fc4147;
+  color: #fc4147;
+}
+/*资产*/
+.home-allCash{
+  flex:1.5;
+}
+.home-allCash h1 {
+  font-size: 22px;
+  display: inline-block;
+  line-height: 22px;
+}
+.home-allCash h2 {
+  margin-top: 21px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #fc4147;
+  /* display: flex; */
+  align-items: center;
+}
+.home-allCash h2 span {
+  font-size: 14px;
+  line-height: 14px;
+  color: #7dc6fd;
+  padding-left: 10px;
+}
+.home-allCash h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666666;
+  padding-top: 25px;
+}
+/* 蓝色表格 */
+.el-table th.is-leaf{  /* //我的账户表格tite高度 */
+  height: 48px;
+}
+.el-table tr{   /* //我的账户表格高度*/
+  height: 58px;
+}
+  .blue-table .el-table td, .el-table th.is-leaf {
+      
+      border-bottom: 1px solid #F5FAFF;
+      background-color: #F5FAFF;
+    }
+    .message-table .el-table{
+      color: #333;
+    }
+    .message-table .el-checkbox__inner{  /* // 信息通知页面样式 */
+      width: 16px;
+      height: 16px;
+      border: 1px solid #808080;
+      border-radius: 2px;
+      
+    }
+  
+    .message-table .el-checkbox-group{
+          margin-left: 9px;
+    }
+    .message-table .el-table .cell{
+      padding-right: 0px;
+    }
+    .message-table .el-checkbox__inner:hover{
+      border: 1px solid #FF4941;
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner {
+    background-color: #FF4941;
+    border-color: #FF4941;
+}
+.el-checkbox__input.is-indeterminate .el-checkbox__inner{
+background-color: #FF4941;
+    border-color: #FF4941;
+}
+  .blue-table {
+    border: 0;
+  }
+ .blue-table::before {
+    background-color: #EFEFEF;
+  }
+  .blue-table::after {
+    background:  white;
+  }
+  .blue-table  .el-table__footer-wrapper thead div, .el-table__header-wrapper thead div {
+      background-color: #F5FAFF;
+    }
+  .blue-table  .el-table th>.cell{
+      background: #F5FAFF;
+    }
+  .blue-table  .el-table__body, .el-table__footer, .el-table__header {
+      background: #F5FAFF;
+    }
+  .blue-table  tbody {
+      color: #666666;
+    }
+    /* 红色tab */
+  .redTab .el-tabs__nav {
+    width: 400px;
+  }
+
+  .redTab .el-tabs__active-bar {
+    background: #fc4147;
+  }
+
+  .redTab .el-tabs__item {
+    height: 70px;
+    line-height: 70px;
+    font-size: 16px;
+  }
+
+  .redTab .el-tabs__item.is-active {
+    color: #fc4147;
+  }
+
+  .redTab .el-tabs__item:hover {
+    color: #fc4147;
+  }
+
+  .redTab .el-tabs__content {
+    padding: 0 0 0 15px;
+  }
+
+  .redTab .el-tabs__content .el-carousel.el-carousel--card {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .redTab .el-carousel__arrow {
+    width: 30px;
+    height: 70px;
+    font-size: 26px;
+    border-radius: 0;
+  }
+
+  .redTab .el-carousel__arrow--right {
+    right: 0;
+  }
+
+  .redTab .el-carousel__arrow--left {
+    left: 0;
+  }
+/* 公共惊叹号 */
+.bang{
+  background: url("https://aliyunsso.edspay.com/web/myAccount/icon-prompt-normal.png") no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align:sub;
+}
+/* 公共蓝色问号 */
+.wenhao{
+  background: url("https://aliyunsso.edspay.com/web/myAccount/wenhao.png") no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align:sub;
+}
+/* 除了首页的标的icon */
+.addApr-icon {
+  background-color:  rgba(92,169,241,0.20);
+  color: #5CA9F1;
+  border: 1px solid #5CA9F1;
+}
+ .vipApr-icon {
+  background-color:  rgba(211,186,129,0.20);
+  color: #D3BA81;
+  border: 1px solid #D3BA81;
+}
+.redUseNum-ico{
+  color: #FD5238;
+  border: 1px solid #FD5238;
+}
+.new-icon {
+  color: #7ED321;
+  background: rgba(126,211,33,0.20);
+  border: 1px solid #7ED321;
+}
+.ai-icon {
+  color: #67C2F6;
+  background: rgba(103,194,264,0.20);
+  border: 1px solid #67C2F6;
+}
+/* 首页标的icon */
+.home-new-icon {
+  color: #fff;
+  background: #7ED321;
+  border: 1px solid #7ED321;
+}
+.home-ai-icon {
+  color: #fff;
+  background: #67C2F6;
+  border: 1px solid #67C2F6;
+}
+.home-addApr {
+  color: #fff;
+  background: #5CA9F1;
+  border: 1px solid #5CA9F1;
+}
+.home-vipApr {
+  color: #fff;
+  background: #D3BA81;
+  border: 1px solid #D3BA81;
+}
+.home-redUseNum {
+  color: #FD5238;
+  border: 1px solid #FD5238;
+}
+/*公共按钮*/
+.help-btn {
+  width: 140px;
+  height: 40px;
+  border: 1px solid #FE3E41;
+  border-radius: 5px;
+  color: #FE3E41;
+  text-align: center;
+  line-height: 38px;
+  cursor: pointer;
+}
+.help-btn:hover {
+  color: white;
+  border: 1px solid #FE3E41;
+  background: #FE3E41;
+}
+/*宽度高度单独给*/
+.disable-btn {
+  background: #FFD5CE;
+  color: white;
+  text-align: center;
+  cursor: not-allowed;
+  border-radius: 4px;
+}
+/*左浮动*/
+.fl {
+  float:left;
+}
+/* 浙商维护公用样式 */
+.zs-defend {
+  background: #FFF7EA;
+  font-size: 14px;
+  color: #FFB53F;
+  line-height:14px;
+  padding:10px 8px 10px 15px;
+  display: inline-block;
+}
+.zs-defend img {
+  width:19px;
+  height: 18px;
+}
+.zs-defend span {
+  padding-left:8px;
+  vertical-align: middle;
+}
+
+/* pc页面改版公用红色竖杠样式 */
+.red_line{
+    width: 6px;
+    height: 25px;
+    background:url(https://aliyunsso.edspay.com/web/home/pcHome/pcPageRevision/red_line.png) no-repeat;
+    background-size: cover;
+  }

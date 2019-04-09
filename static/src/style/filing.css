@@ -1,0 +1,1502 @@
+.car1{
+    background-position: 0 0;
+    animation:mymove 3s linear 0s 1 forwards;
+    -moz-animation:mymove 3s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove 3s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove 3s linear 0s 1 forwards; /* Opera */
+}
+.car2{
+    background-position: -100% 0;
+    animation:mymove2 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove2 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove2 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove2 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car3{
+    background-position: 0% 0;
+    animation:mymove3 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove3 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove3 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove3 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car4{
+    background-position: -100% 0;
+    animation:mymove4 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove4 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove4 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove4 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car5{
+    background-position: 0% 0;
+    animation:mymove5 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove5 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove5 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove5 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car6{
+    background-position: -100% 0;
+    animation:mymove6 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove6 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove6 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove6 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car7{
+    background-position: 0% 0;
+    animation:mymove7 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove7 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove7 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove7 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car8{
+    background-position: -100% 0;
+    animation:mymove8 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove8 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove8 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove8 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car9{
+    background-position: 0% 0;
+    animation:mymove9 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove9 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove9 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove9 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car10{
+    background-position: -100% 0;
+    animation:mymove10 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove10 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove10 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove10 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car11{
+    background-position: 0% 0;
+    animation:mymove11 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove11 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove11 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove11 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car12{
+    background-position: -100% 0;
+    animation:mymove12 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove12 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove12 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove12 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car13{
+    background-position: -100% 0;
+    animation:mymove13 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove13 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove13 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove13 3.65s linear 0s 1 forwards; /* Opera */
+}
+.car14{
+    background-position: -100% 0;
+    animation:mymove14 3.65s linear 0s 1 forwards;
+    -moz-animation:mymove14 3.65s linear 0s 1 forwards; /* Firefox */
+    -webkit-animation:mymove14 3.65s linear 0s 1 forwards; /* Safari and Chrome */
+    -o-animation:mymove14 3.65s linear 0s 1 forwards; /* Opera */
+}
+/* 第一步 */
+@keyframes mymove
+{
+    0% {
+        background-position: 0 0;
+        left: 30%;
+        top:6rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:9.8rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:8rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -40%;
+        top:10rem;
+    }
+}
+
+@-moz-keyframes mymove /* Firefox */
+{
+    0% {
+        background-position: 0 0;
+        left: 30%;
+        top:6rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:9.8rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:8rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -40%;
+        top:10rem;
+    }
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+    0% {
+        background-position: 0 0;
+        left: 30%;
+        top:6rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:9.8rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:8rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -40%;
+        top:10rem;
+    }
+}
+
+@-o-keyframes mymove /* Opera */
+{
+    0% {
+        background-position: 0 0;
+        left: 30%;
+        top:6rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:9.8rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:8rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -40%;
+        top:10rem;
+    }
+}
+/* 第二步 */
+@keyframes mymove2
+{
+    0% {
+        left: -40%;
+        top:10rem;
+        background-position: -100% 0;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 105%;
+        top:20rem;
+        }
+    76% {
+        background-position: 0 0;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:22rem;
+    }
+}
+
+@-moz-keyframes mymove2 /* Firefox */
+{
+    0% {
+        left: -40%;
+        top:10rem;
+        background-position: -100% 0;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 105%;
+        top:20rem;
+        }
+    76% {
+        background-position: 0 0;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:22rem;
+    }
+}
+
+@-webkit-keyframes mymove2 /* Safari and Chrome */
+{
+    0% {
+        left: -40%;
+        top:10rem;
+        background-position: -100% 0;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 105%;
+        top:20rem;
+        }
+    76% {
+        background-position: 0 0;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:22rem;
+    }
+}
+
+@-o-keyframes mymove2 /* Opera */
+{
+    0% {
+        left: -40%;
+        top:10rem;
+        background-position: -100% 0;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 105%;
+        top:20rem;
+        }
+    76% {
+        background-position: 0 0;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:22rem;
+    }
+}
+/* 第三步 */
+@keyframes mymove3
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:22rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:31.5rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:34rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -35%;
+        top:36rem;
+    }
+}
+
+@-moz-keyframes mymove3 /* Firefox */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:22rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:31.5rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:34rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -35%;
+        top:36rem;
+    }
+}
+
+@-webkit-keyframes mymove3 /* Safari and Chrome */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:22rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:31.5rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:34rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -35%;
+        top:36rem;
+    }
+}
+
+@-o-keyframes mymove3 /* Opera */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:22rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:31.5rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:34rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -35%;
+        top:36rem;
+    }
+}
+/* 第四步 */
+@keyframes mymove4
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:36rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:46rem;
+        }
+    76% {
+        background-position: 0 0;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:49rem;
+    }
+}
+
+@-moz-keyframes mymove4 /* Firefox */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:36rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:46rem;
+        }
+    76% {
+        background-position: 0 0;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:49rem;
+    }
+}
+
+@-webkit-keyframes mymove4 /* Safari and Chrome */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:36rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:46rem;
+        }
+    76% {
+        background-position: 0 0;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:49rem;
+    }
+}
+
+@-o-keyframes mymove4 /* Opera */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:36rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:46rem;
+        }
+    76% {
+        background-position: 0 0;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:49rem;
+    }
+}
+/* 第五步 */
+@keyframes mymove5
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:49rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:58rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:60rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:63rem;
+    }
+}
+
+@-moz-keyframes mymove5 /* Firefox */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:49rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:58rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:60rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:63rem;
+    }
+}
+
+@-webkit-keyframes mymove5 /* Safari and Chrome */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:49rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:58rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:60rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:63rem;
+    }
+}
+
+@-o-keyframes mymove5 /* Opera */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:49rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:58rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:60rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:63rem;
+    }
+}
+/* 第六步 */
+@keyframes mymove6
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:63rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:73rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:73rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:76.5rem;
+    }
+}
+
+@-moz-keyframes mymove6 /* Firefox */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:63rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:73rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:73rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:76.5rem;
+    }
+}
+
+@-webkit-keyframes mymove6 /* Safari and Chrome */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:63rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:73rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:73rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:76.5rem;
+    }
+}
+
+@-o-keyframes mymove6 /* Opera */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:63rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:73rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:73rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:76.5rem;
+    }
+}
+/* 第七步 */
+@keyframes mymove7
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:76.5rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:86rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:88rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:91rem;
+    }
+}
+
+@-moz-keyframes mymove7 /* Firefox */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:76.5rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:86rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:88rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:91rem;
+    }
+}
+
+@-webkit-keyframes mymove7 /* Safari and Chrome */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:76.5rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:86rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:88rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:91rem;
+    }
+}
+
+@-o-keyframes mymove7 /* Opera */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:76.5rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:86rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:88rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:91rem;
+    }
+}
+/* 第八步 */
+@keyframes mymove8
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:91rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:102rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:112rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:115rem;
+    }
+}
+
+@-moz-keyframes mymove8 /* Firefox */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:91rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:102rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:112rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:115rem;
+    }
+}
+
+@-webkit-keyframes mymove8 /* Safari and Chrome */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:91rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:102rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:112rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:115rem;
+    }
+}
+
+@-o-keyframes mymove8 /* Opera */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:91rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:102rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:112rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:115rem;
+    }
+}
+/* 第九步 */
+@keyframes mymove9
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:115rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:124rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:134rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:137rem;
+    }
+}
+
+@-moz-keyframes mymove9 /* Firefox */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:115rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:124rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:134rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:137rem;
+    }
+}
+
+@-webkit-keyframes mymove9 /* Safari and Chrome */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:115rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:124rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:134rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:137rem;
+    }
+}
+
+@-o-keyframes mymove9 /* Opera */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:115rem;
+        }
+    75% {
+        background-position: 0 0;
+        left: -75%;
+        top:124rem;
+        }
+    76% {
+        background-position: -100% 0;
+        top:134rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:137rem;
+    }
+}
+/* 第十步 */
+@keyframes mymove10
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:137rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:149rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:152rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:155rem;
+    }
+}
+
+@-moz-keyframes mymove10 /* Firefox */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:137rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:149rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:152rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:155rem;
+    }
+}
+
+@-webkit-keyframes mymove10 /* Safari and Chrome */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:137rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:149rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:152rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:155rem;
+    }
+}
+
+@-o-keyframes mymove10 /* Opera */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:137rem;
+        }
+    75% {
+        background-position: -100% 0;
+        left: 115%;
+        top:149rem;
+        }
+    76% {
+        background-position: 0 0;
+        top:152rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 65%;
+        top:155rem;
+    }
+}
+/* 第十一步 */
+@keyframes mymove11
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:155rem;
+        }
+    80% {
+        background-position: 0 0;
+        left: -75%;
+        top:170rem;
+        }
+    81% {
+        background-position: -100% 0;
+        top:166rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:169rem;
+    }
+}
+
+@-moz-keyframes mymove11 /* Firefox */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:155rem;
+        }
+    80% {
+        background-position: 0 0;
+        left: -75%;
+        top:170rem;
+        }
+    81% {
+        background-position: -100% 0;
+        top:166rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:169rem;
+    }
+}
+
+@-webkit-keyframes mymove11 /* Safari and Chrome */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:155rem;
+        }
+    80% {
+        background-position: 0 0;
+        left: -75%;
+        top:170rem;
+        }
+    81% {
+        background-position: -100% 0;
+        top:166rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:169rem;
+    }
+}
+
+@-o-keyframes mymove11 /* Opera */
+{
+    0% {
+        background-position: 0 0;
+        left: 65%;
+        top:155rem;
+        }
+    80% {
+        background-position: 0 0;
+        left: -75%;
+        top:170rem;
+        }
+    81% {
+        background-position: -100% 0;
+        top:166rem;
+        }
+    100% {
+        background-position: -100% 0;
+        left: -30%;
+        top:169rem;
+    }
+}
+/* 第十二步 */
+@keyframes mymove12
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:169rem;
+        }
+    55% {
+        background-position: -100% 0;
+        left: 115%;
+        top:178rem;
+        }
+    56% {
+        background-position: 0 0;
+        top:179rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 20%;
+        top:187rem;
+    }
+}
+
+@-moz-keyframes mymove12 /* Firefox */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:169rem;
+        }
+    55% {
+        background-position: -100% 0;
+        left: 115%;
+        top:178rem;
+        }
+    56% {
+        background-position: 0 0;
+        top:179rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 20%;
+        top:187rem;
+    }
+}
+
+@-webkit-keyframes mymove12 /* Safari and Chrome */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:169rem;
+        }
+    55% {
+        background-position: -100% 0;
+        left: 115%;
+        top:178rem;
+        }
+    56% {
+        background-position: 0 0;
+        top:179rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 20%;
+        top:187rem;
+    }
+}
+
+@-o-keyframes mymove12 /* Opera */
+{
+    0% {
+        background-position: -100% 0;
+        left: -30%;
+        top:169rem;
+        }
+    55% {
+        background-position: -100% 0;
+        left: 115%;
+        top:178rem;
+        }
+    56% {
+        background-position: 0 0;
+        top:179rem;
+        }
+    100% {
+        background-position: 0 0;
+        left: 20%;
+        top:187rem;
+    }
+}
+/* 第十三步 */
+@keyframes mymove13
+{
+    0% {
+        background-position: 0 0;
+        left: 20%;
+        top:187rem;
+        }
+
+    75%{
+        background-position: 0% 0;
+        left: -65%;
+        top:200rem;
+    }  
+    
+    76%{
+        background-position: -100% 0;
+        left: -65%;
+        top:203rem;
+    }
+
+    100% {
+        background-position: -100% 0;
+        left: 0%;
+        top: 206.5rem;
+    }
+}
+@-moz-keyframes mymove13 /* Firefox */
+{
+    0% {
+        background-position: 0 0;
+        left: 20%;
+        top:187rem;
+        }
+
+    75%{
+        background-position: 0% 0;
+        left: -65%;
+        top:200rem;
+    }  
+    
+    76%{
+        background-position: -100% 0;
+        left: -65%;
+        top:203rem;
+    }
+
+    100% {
+        background-position: -100% 0;
+        left: 0%;
+        top: 206.5rem;
+    }
+}
+
+@-webkit-keyframes mymove13 /* Safari and Chrome */
+{
+    0% {
+        background-position: 0 0;
+        left: 20%;
+        top:187rem;
+        }
+
+    75%{
+        background-position: 0% 0;
+        left: -65%;
+        top:200rem;
+    }  
+    
+    76%{
+        background-position: -100% 0;
+        left: -65%;
+        top:203rem;
+    }
+
+    100% {
+        background-position: -100% 0;
+        left: 0%;
+        top: 206.5rem;
+    }
+}
+
+@-o-keyframes mymove13 /* Opera */
+{
+    0% {
+        background-position: 0 0;
+        left: 20%;
+        top:187rem;
+        }
+
+    75%{
+        background-position: 0% 0;
+        left: -65%;
+        top:200rem;
+    }  
+    
+    76%{
+        background-position: -100% 0;
+        left: -65%;
+        top:203rem;
+    }
+
+    100% {
+        background-position: -100% 0;
+        left: 0%;
+        top: 206.5rem;
+    }
+}
+
+/* 第十四步 */
+@keyframes mymove14
+{
+    0% {
+        background-position: -100% 0;
+        left: 0%;
+        top: 206.5rem;
+        }
+
+    75%{
+        background-position: -100% 0;
+        left: 100%;
+        top:214.5rem;
+    }  
+
+    76%{
+        background-position: 0% 0;
+        left: 100%;
+        top:216rem;
+    }  
+
+    100% {
+        background-position: 0% 0;
+        left: 48%;
+        top: 221rem;
+    } 
+}
+@-moz-keyframes mymove14 /* Firefox */
+{
+    0% {
+        background-position: -100% 0;
+        left: 0%;
+        top: 206.5rem;
+        }
+
+    75%{
+        background-position: -100% 0;
+        left: 100%;
+        top:214.5rem;
+    }  
+
+    76%{
+        background-position: 0% 0;
+        left: 100%;
+        top:216rem;
+    }  
+
+    100% {
+        background-position: 0% 0;
+        left: 48%;
+        top: 221rem;
+    } 
+}
+
+@-webkit-keyframes mymove14 /* Safari and Chrome */
+{
+    0% {
+        background-position: -100% 0;
+        left: 0%;
+        top: 206.5rem;
+        }
+
+    75%{
+        background-position: -100% 0;
+        left: 100%;
+        top:214.5rem;
+    }  
+
+    76%{
+        background-position: 0% 0;
+        left: 100%;
+        top:216rem;
+    }  
+
+    100% {
+        background-position: 0% 0;
+        left: 48%;
+        top: 221rem;
+    } 
+}
+
+@-o-keyframes mymove14 /* Opera */
+{
+    0% {
+        background-position: -100% 0;
+        left: 0%;
+        top: 206.5rem;
+        }
+
+    75%{
+        background-position: -100% 0;
+        left: 100%;
+        top:214.5rem;
+    }  
+
+    76%{
+        background-position: 0% 0;
+        left: 100%;
+        top:216rem;
+    }  
+
+    100% {
+        background-position: 0% 0;
+        left: 48%;
+        top: 221rem;
+    } 
+}
+
+/* 点击预览未完成部分的小手动画 */
+@keyframes move
+{
+    0% {
+        background-size: .8rem .8rem;
+        }
+    50%{
+        background-size: .533333rem .533333rem;
+        }
+    100% {
+        background-size: .8rem .8rem;
+    }
+}
+
+@-moz-keyframes move /* Firefox */
+{
+    0% {
+        background-size: .8rem .8rem;
+        }
+    50%{
+        background-size: .533333rem .533333rem;
+        }
+    100% {
+        background-size: .8rem .8rem;
+    }
+}
+
+@-webkit-keyframes move /* Safari and Chrome */
+{
+    0% {
+        background-size: .8rem .8rem;
+        }
+    50%{
+        background-size: .533333rem .533333rem;
+        }
+    100% {
+        background-size: .8rem .8rem;
+    }
+}
+
+@-o-keyframes move /* Opera */
+{
+    0% {
+        background-size: .8rem .8rem;
+        }
+    50%{
+        background-size: .533333rem .533333rem;
+        }
+    100% {
+        background-size: .8rem .8rem;
+    }
+}
+/* 音乐按钮 */
+@keyframes myMusic
+{
+    0% {
+        transform: rotateZ(0);
+        }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-moz-keyframes myMusic /* Firefox */
+{
+    0% {
+        -moz-transform: rotateZ(0);
+        }
+    100% {
+        -moz-transform: rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes myMusic /* Safari and Chrome */
+{
+    0% {
+        -webkit-transform: rotateZ(0);
+        }
+    100% {
+        -webkit-transform: rotateZ(360deg);
+    }
+}
+
+@-o-keyframes myMusic /* Opera */
+{
+    0% {
+        -o-transform: rotateZ(0);
+        }
+    100% {
+        -o-transform: rotateZ(360deg);
+    }
+}
